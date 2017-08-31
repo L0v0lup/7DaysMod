@@ -1,0 +1,222 @@
+<!-- Custom -->
+
+<entity_class name="ZombieRaveReaper" extends="zombieTemplateMale" >
+	<property name="Archetype" value="ZombieRaveReaper"/>
+	<property name="MaxHealth" value="1050" />
+	<property name="SoundRandom" value="Enemies/Feral_Zombie/zombieferalroam" />
+	<property name="SoundAlert" value="Enemies/Feral_Zombie/zombieferalalert" />
+	<property name="SoundAttack" value="Enemies/Feral_Zombie/zombieferalattack" />
+	<property name="SoundHurt" value="Enemies/Feral_Zombie/zombieferalpain" />
+	<property name="SoundDeath" value="Enemies/Feral_Zombie/zombieferaldeath" />
+	<property name="SoundSense" value="Enemies/Feral_Zombie/zombieferalsense" />
+	<property name="SoundFootstepModifier" value="Enemies/Feral_Zombie/zombieferalfootstep" />
+	<property name="WalkType" value="2" />
+	<property name="ApproachSpeed" value="1" />
+	<property name="NightApproachSpeed" value="1.4" />	
+	<property name="LootListOnDeath" value="61" />
+	<property name="HandItem" value="handReaper" />
+</entity_class>
+<entity_class name="ZombieLumberjack" extends="zombieUMATemplateMale" >
+	<property name="Archetype" value="ZombieLumberjack"/>
+	<property name="MaxHealth" value="450" />
+	<property name="WalkType" value="2" />
+	<property name="LootListOnDeath" value="112" />
+	<property name="RootMotion" value="true" />
+	<property name="HasDeathAnim" value="true" />
+	<property name="SoundRandom" value="Enemies/Snow_Zombie_Male/zombiemalesnowroam" />
+	<property name="SoundAlert" value="Enemies/Snow_Zombie_Male/zombiemalesnowalert" />
+	<property name="SoundAttack" value="Enemies/Snow_Zombie_Male/zombiemalesnowattack" />
+	<property name="SoundHurt" value="Enemies/Snow_Zombie_Male/zombiemalesnowpain" />
+	<property name="SoundDeath" value="Enemies/Snow_Zombie_Male/zombiemalesnowdeath" />
+	<property name="SoundSense" value="Enemies/Snow_Zombie_Male/zombiemalesnowsense" />
+	<property name="SoundFootstepModifier" value="Enemies/Snow_Zombie_Male/zombiesnowfootstep" />
+	<property name="HandItem" value="handZombieStrong" />
+</entity_class>
+<entity_class name="ZombieTrucker" extends="zombieUMATemplateMale" >
+	<property name="Archetype" value="ZombieTrucker"/>
+	<property name="SoundRandom" value="Enemies/Base_Zombie_Male2/zombiemale2roam" />
+	<property name="SoundAlert" value="Enemies/Base_Zombie_Male2/zombiemale2alert" />
+	<property name="SoundSense" value="Enemies/Base_Zombie_Male2/zombiemale2sense" />
+	<property name="SoundHurt" value="Enemies/Base_Zombie_Male2/zombiemale2pain" />
+	<property name="SoundDeath" value="Enemies/Base_Zombie_Male2/zombiemale2death" />
+	<property name="SoundAttack" value="Enemies/Base_Zombie_Male2/zombiemale2attack" />
+	<property name="MaxHealth" value="500" />
+	<property name="Weight" value="70" />
+	<property name="PushFactor" value="20" />
+	<property name="WalkType" value="2" />
+	<property name="LootListOnDeath" value="126" />
+	<property name="HandItem" value="handZombieStrong" />
+	<property name="HeadDismemberBonusChance" value="0.08"/>
+	<property name="HeadDismemberThreshold" value="0"/> <!-- if the total damage exceeds that value, there is a chance for dismemberment /> -->
+	<property name="LowerLegDismemberThreshold" value="0"/>
+	<property name="UpperLegDismemberThreshold" value="0"/>
+	<property name="LowerArmDismemberThreshold" value="0"/>
+	<property name="UpperArmDismemberThreshold" value="0"/>
+	<property name="LegCrawlerThreshold" value="0"/>
+	<property name="LegCrippleThreshold" value="0"/>
+	<property name="KnockdownProneDamageThreshold" value="0"/>
+	<property name="KnockdownKneelDamageThreshold" value="0"/>
+</entity_class>
+<entity_class name="ZombieRavager" extends="zombieUMATemplateMale" >
+	<property name="Archetype" value="ZombieRavager"/>
+	<property name="WalkType" value="4" />
+	<property name="SoundRandom" value="Enemies/Spider_Zombie/spiderroam" />
+	<property name="SoundAlert" value="Enemies/Spider_Zombie/spideralert" />
+	<property name="SoundAttack" value="Enemies/Spider_Zombie/spiderattack" />
+	<property name="SoundDeath" value="Enemies/Spider_Zombie/spiderdeath" />
+	<property name="SoundHurt" value="Enemies/Spider_Zombie/spiderpain" />
+	<property name="SoundSense" value="Enemies/Spider_Zombie/spidersense" />
+	<property name="CanClimbVertical" value="true" />
+	<property name="WalkType" value="8" />
+	<property name="MaxHealth"    value="200" />
+	<property name="WanderSpeed"        value="0.3" />
+	<property name="ApproachSpeed"      value="0.7" />
+	<property name="NightWanderSpeed"   value="0.5" />
+	<property name="NightApproachSpeed" value="1.5" />
+	<property name="PanicSpeed"         value="1.6" />
+	<property name="HeadDismemberThreshold" value="0"/>
+	<property name="LowerLegDismemberThreshold" value="0"/>
+	<property name="UpperLegDismemberThreshold" value="0"/>
+	<property name="LowerArmDismemberThreshold" value="0"/>
+	<property name="UpperArmDismemberThreshold" value="0"/>
+	<property name="HasDeathAnim" value="false" />		
+	<property name="LootListOnDeath"	value="111" />
+	<property name="ApproachSpeed" value="1.3" />
+	<property name="NightApproachSpeed" value="1.3" />
+</entity_class>
+<entity_class name="ZombieBrute" extends="zombieUMATemplateMale" >
+	<property name="Archetype" value="ZombieBrute"/>
+	<property name="SurfaceCategory" value="metal" />
+	<property name="HandItem"             value="GorillaBossHand" />
+	<property name="WalkType"             value="8" />
+	<property name="CanClimbLadders"     value="false" />
+	<property name="ExperienceGain" value="4000"/>
+	<property name="RootMotion"   value="true" />
+	<property name="HasDeathAnim" value="false" />
+	<property name="MaxHealth"    value="3300" />
+	<property name="Weight"       value="300" />
+	<property name="PushFactor"   value="20" />
+	<property name="LootListOnDeath"  value="102" />
+	<property name="SoundRandom"     value="Enemies/Acid_Puking_Hulk/hulkroam" />
+	<property name="SoundAlert"     value="Enemies/Acid_Puking_Hulk/hulkalert" />
+	<property name="SoundAttack"     value="Enemies/Acid_Puking_Hulk/hulkattack" />
+	<property name="SoundHurt"     value="Enemies/Acid_Puking_Hulk/hulkpain" />
+	<property name="SoundDeath"   value="Enemies/Acid_Puking_Hulk/hulkdeath" />
+	<property name="SoundSense"   value="Enemies/Acid_Puking_Hulk/hulksense" />
+	<property name="SoundFootstepModifier"  value="Animals/Bear/bear_footstep" />
+	<property name="HeadDismemberThreshold" value="0"/>
+	<property name="LowerLegDismemberThreshold" value="0"/>
+	<property name="UpperLegDismemberThreshold" value="0"/>
+	<property name="LowerArmDismemberThreshold" value="0"/>
+	<property name="UpperArmDismemberThreshold" value="0"/>
+	<property name="WanderSpeed"        value="0.08" />
+	<property name="ApproachSpeed"      value="0.3" />
+	<property name="NightWanderSpeed"   value="0.08" />
+	<property name="NightApproachSpeed" value="0.8" />
+	<property name="PanicSpeed"         value="0.65" />
+	<property name="CanClimbLadders"     value="false" />
+</entity_class>
+<entity_class name="Scorched Rusher" extends="zombieUMATemplateMale" >
+	<property name="Archetype" value="ZombieCharred"/>
+	<property name="WalkType" value="7" />
+	<property name="SoundRandom" value="Enemies/Burnt_Zombie/zombieburntroam" />
+	<property name="SoundAlert" value="Enemies/Burnt_Zombie/zombieburntalert" />
+	<property name="SoundAttack" value="Enemies/Burnt_Zombie/zombieburntattack" />
+	<property name="SoundHurt" value="Enemies/Burnt_Zombie/zombieburntpain" />
+	<property name="SoundDeath" value="Enemies/Burnt_Zombie/zombieburntdeath" />
+	<property name="SoundSense" value="Enemies/Burnt_Zombie/zombieburntsense" />
+	<property name="SoundFootstepModifier" value="Enemies/Burnt_Zombie/zombieburntfootstep" />
+	<property name="HandItem" value="handBurningRusher" />
+	<property name="MaxHealth" value="25" />
+	<property name="LootListOnDeath" value="114" />
+	
+	<property name="WanderSpeed"        value="0.3" />
+	<property name="ApproachSpeed"      value="0.3" />
+	<property name="NightWanderSpeed"   value="0.3" />
+	<property name="NightApproachSpeed" value="1.1" />
+	<property name="PanicSpeed"         value="0.4" />
+	
+	<property name="AITask-1" value="BreakDoor" />
+	<property name="AITask-2" value="BreakBlock" />
+	<property name="AITask-3" value="RangedAttackTarget" param1="1" param2="1" />
+	<property name="AITask-4" value="ApproachAndAttackTarget" param1="EntityPlayer" />
+	<property name="AITask-5" value="ApproachAndAttackTarget" param1="EntityAnimalStag" />
+	<property name="AITask-6" value="ApproachSpot" />
+	<property name="AITask-7" value="Wander" />
+</entity_class>
+
+<entity_class name="ZombieRegen" extends="zombieUMATemplateMale" >
+	<property name="Archetype" value="ZombieRegen"/>
+	<property name="WalkType" value="2" />
+	<property name="SoundRandom" value="Enemies/Burnt_Zombie/zombieburntroam" />
+	<property name="SoundAlert" value="Enemies/Burnt_Zombie/zombieburntalert" />
+	<property name="SoundAttack" value="Enemies/Burnt_Zombie/zombieburntattack" />
+	<property name="SoundHurt" value="Enemies/Burnt_Zombie/zombieburntpain" />
+	<property name="SoundDeath" value="Enemies/Burnt_Zombie/zombieburntdeath" />
+	<property name="SoundSense" value="Enemies/Burnt_Zombie/zombieburntsense" />
+	<property name="SoundFootstepModifier" value="Enemies/Burnt_Zombie/zombieburntfootstep" />
+	<property name="HandItem" value="handRegenerator" />
+	<property name="MaxHealth" value="500" />
+	<property name="LootListOnDeath" value="17" />
+	
+	<property name="AITask-1" value="BreakDoor" />
+	<property name="AITask-2" value="BreakBlock" />
+	<property name="AITask-3" value="RangedAttackTarget" param1="1" param2="1" />
+	<property name="AITask-4" value="ApproachAndAttackTarget" param1="EntityPlayer" />
+	<property name="AITask-5" value="ApproachAndAttackTarget" param1="EntityAnimalStag" />
+	<property name="AITask-6" value="ApproachSpot" />
+	<property name="AITask-7" value="Wander" />
+	
+	<property name="KnockdownProneStunDuration" value="2,3"/>
+	<property name="KnockdownKneelStunDuration" value="2,3"/>
+</entity_class>
+
+</entity_classes>
+<!-- Radiated, harder to decap
+	<property name="HeadDismemberBaseChance" value="-.15"/>
+	<property name="HeadDismemberBonusChance" value="0.08"/>
+	<property name="HeadDismemberThreshold" value="0.38"/>
+	<property name="LowerLegDismemberThreshold" value="0.325"/>
+	<property name="LowerLegDismemberBaseChance" value="-.15"/>
+	<property name="LowerLegDismemberBonusChance" value="0.9"/>
+	<property name="UpperLegDismemberThreshold" value="0.325"/>
+	<property name="UpperLegDismemberBaseChance" value="-.15"/>
+	<property name="UpperLegDismemberBonusChance" value="0.9"/>
+	<property name="LowerArmDismemberThreshold" value="0.255"/>
+	<property name="LowerArmDismemberBaseChance" value="-.15"/>
+	<property name="LowerArmDismemberBonusChance" value="0.9"/>
+	<property name="UpperArmDismemberThreshold" value="0.255"/>
+	<property name="UpperArmDismemberBaseChance" value="-.15"/>
+	<property name="UpperArmDismemberBonusChance" value="0.9"/>
+	<property name="LegCrawlerThreshold" value="0"/>
+	<property name="LegCrippleThreshold" value="0.01"/>
+	<property name="KnockdownProneDamageThreshold" value="0.45"/>
+	<property name="KnockdownProneStunDuration" value="4,6"/>
+	<property name="KnockdownProneRefillRate" value="0.045,0.045"/>
+	<property name="KnockdownKneelDamageThreshold" value="0.38"/>
+	<property name="KnockdownKneelStunDuration" value="5,6"/>
+	<property name="KnockdownKneelRefillRate" value="0.045,0.045"/>
+	<property name="LegsExplosionDamageMultiplier" value=".85"/>
+	<property name="ArmsExplosionDamageMultiplier" value=".85"/>
+	<property name="HeadExplosionDamageMultiplier" value=".85"/>
+	<property name="ChestExplosionDamageMultiplier" value=".85"/>
+
+
+XP buckets for balancing:
+	<property name="ExperienceGain" value="225"/>
+	<property name="ExperienceGain" value="327"/>
+	<property name="ExperienceGain" value="384"/>
+	<property name="ExperienceGain" value="679"/>
+	<property name="ExperienceGain" value="798"/>
+	<property name="ExperienceGain" value="1039"/>
+	<property name="ExperienceGain" value="1407"/>
+	<property name="ExperienceGain" value="1556"/>
+	<property name="ExperienceGain" value="2091"/>
+	<property name="ExperienceGain" value="2509"/>
+	<property name="ExperienceGain" value="2916"/>
+	<property name="ExperienceGain" value="3429"/>
+	<property name="ExperienceGain" value="4334"/>
+	<property name="ExperienceGain" value="5251"/>
+	<property name="ExperienceGain" value="6042"/>
+	<property name="ExperienceGain" value="8982"/>
+-->
