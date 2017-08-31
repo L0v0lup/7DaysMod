@@ -1,2 +1,2 @@
-		<property name="Range" value="1.15"/> <!-- This not what "clientside melee combat" means. =) This is the adjustment afterwards due to code changes. -->
-    <property name="CrosshairUpAfterShot" value="false" />
+	<property name="Range" value="1.15"/> <!-- This not what "clientside melee combat" means. =) This is the adjustment afterwards due to code changes. -->
+	<property name="CrosshairUpAfterShot" value="false" />
