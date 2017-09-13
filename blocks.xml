@@ -1,0 +1,24 @@
+<block id="6" name="potassiumNitrate">
+	<property name="Material" value="coal"/>
+	<property name="Shape" value="Terrain"/>
+	<property name="Mesh" value="terrain"/>
+	<property name="Texture" value="300"/>
+	<property name="DropScale" value="2"/>
+	<drop event="Harvest" name="potassiumNitratePowder" count="20" tool_category="harvestingTools"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="potassiumNitratePowder" count="20" prob="0.5" stick_chance="0"/>
+	<property name="CanMobsSpawnOn" value="true"/>
+</block>
+
+<block id="7" name="ironOre">
+	<property name="Material" value="Mmetal_medium"/>
+	<property name="Shape" value="Terrain"/>
+	<property name="Mesh" value="terrain"/>
+	<property name="Texture" value="33"/>
+	<property name="DropScale" value="2"/>
+	<drop event="Harvest" name="ironFragment" count="37" tool_category="harvestingTools"/>
+	<drop event="Harvest" name="copper" count="3" tool_category="harvestingTools"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="ironFragment" count="36" prob="0.5" stick_chance="0"/>
+	<property name="CanMobsSpawnOn" value="true"/>
+</block>
