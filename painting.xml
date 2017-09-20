@@ -1,0 +1,32 @@
+<paint id="149" name="txName_Storage_generic">
+	<property name="TextureId" value="572"/>
+	<property name="PaintCost" value="1" />
+</paint>
+<paint id="83" name="txName_Storage_health">
+	<property name="TextureId" value="284"/>
+	<property name="PaintCost" value="1" />
+</paint>
+<paint id="128" name="txName_Storage_ammo">
+	<property name="TextureId" value="418"/>
+	<property name="PaintCost" value="1" />
+</paint>
+
+<paint id="129" name="txName_Storage_building">
+	<property name="TextureId" value="419"/>
+	<property name="PaintCost" value="1" />
+</paint>
+
+<paint id="130" name="txName_Storage_explosives">
+	<property name="TextureId" value="420"/>
+	<property name="PaintCost" value="1" />
+</paint>
+
+<paint id="131" name="txName_Storage_food">
+	<property name="TextureId" value="421"/>
+	<property name="PaintCost" value="1" />
+</paint>
+
+<paint id="132" name="txName_Storage_weapons">
+	<property name="TextureId" value="422"/>
+	<property name="PaintCost" value="1" />
+</paint>
